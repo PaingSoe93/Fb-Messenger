@@ -7,23 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A10E77B3208F00DE007387AB /* FriendControllerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10E77B2208F00DE007387AB /* FriendControllerHelper.swift */; };
 		A119DFA0208DA7EB0056D2D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A119DF9F208DA7EB0056D2D7 /* AppDelegate.swift */; };
-		A119DFA2208DA7EB0056D2D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A119DFA1208DA7EB0056D2D7 /* ViewController.swift */; };
-		A119DFA5208DA7EB0056D2D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A119DFA3208DA7EB0056D2D7 /* Main.storyboard */; };
+		A119DFA2208DA7EB0056D2D7 /* FriendsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A119DFA1208DA7EB0056D2D7 /* FriendsController.swift */; };
 		A119DFA8208DA7EB0056D2D7 /* fbMessenger.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A119DFA6208DA7EB0056D2D7 /* fbMessenger.xcdatamodeld */; };
 		A119DFAA208DA7EC0056D2D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A119DFA9208DA7EC0056D2D7 /* Assets.xcassets */; };
 		A119DFAD208DA7EC0056D2D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A119DFAB208DA7EC0056D2D7 /* LaunchScreen.storyboard */; };
+		A133A88120DBB9A3004E259B /* Friend+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A133A88020DBB9A3004E259B /* Friend+CoreDataProperties.swift */; };
+		A164807B2092E7DF0037BA43 /* CustomTabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A164807A2092E7DF0037BA43 /* CustomTabbarController.swift */; };
+		A1AE21FD208F0E5500B7448D /* Friend+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1AE21F9208F0E5500B7448D /* Friend+CoreDataClass.swift */; };
+		A1AE21FF208F0E5500B7448D /* Message+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1AE21FB208F0E5500B7448D /* Message+CoreDataClass.swift */; };
+		A1C8745E20908A46000D10C8 /* ChatLogController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C8745D20908A46000D10C8 /* ChatLogController.swift */; };
+		A1E5FEB620D11F07008D9679 /* Message+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E5FEB520D11F07008D9679 /* Message+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A10E77B2208F00DE007387AB /* FriendControllerHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendControllerHelper.swift; sourceTree = "<group>"; };
 		A119DF9C208DA7EB0056D2D7 /* fbMessenger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fbMessenger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A119DF9F208DA7EB0056D2D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A119DFA1208DA7EB0056D2D7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A119DFA4208DA7EB0056D2D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A119DFA1208DA7EB0056D2D7 /* FriendsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsController.swift; sourceTree = "<group>"; };
 		A119DFA7208DA7EB0056D2D7 /* fbMessenger.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = fbMessenger.xcdatamodel; sourceTree = "<group>"; };
 		A119DFA9208DA7EC0056D2D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A119DFAC208DA7EC0056D2D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A119DFAE208DA7EC0056D2D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A133A88020DBB9A3004E259B /* Friend+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Friend+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		A164807A2092E7DF0037BA43 /* CustomTabbarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabbarController.swift; sourceTree = "<group>"; };
+		A1AE21F9208F0E5500B7448D /* Friend+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Friend+CoreDataClass.swift"; sourceTree = "<group>"; };
+		A1AE21FB208F0E5500B7448D /* Message+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Message+CoreDataClass.swift"; sourceTree = "<group>"; };
+		A1C8745D20908A46000D10C8 /* ChatLogController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatLogController.swift; sourceTree = "<group>"; };
+		A1E5FEB520D11F07008D9679 /* Message+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Message+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,12 +69,18 @@
 			isa = PBXGroup;
 			children = (
 				A119DF9F208DA7EB0056D2D7 /* AppDelegate.swift */,
-				A119DFA1208DA7EB0056D2D7 /* ViewController.swift */,
-				A119DFA3208DA7EB0056D2D7 /* Main.storyboard */,
+				A119DFA1208DA7EB0056D2D7 /* FriendsController.swift */,
 				A119DFA9208DA7EC0056D2D7 /* Assets.xcassets */,
 				A119DFAB208DA7EC0056D2D7 /* LaunchScreen.storyboard */,
 				A119DFAE208DA7EC0056D2D7 /* Info.plist */,
 				A119DFA6208DA7EB0056D2D7 /* fbMessenger.xcdatamodeld */,
+				A10E77B2208F00DE007387AB /* FriendControllerHelper.swift */,
+				A1AE21F9208F0E5500B7448D /* Friend+CoreDataClass.swift */,
+				A133A88020DBB9A3004E259B /* Friend+CoreDataProperties.swift */,
+				A1E5FEB520D11F07008D9679 /* Message+CoreDataProperties.swift */,
+				A1AE21FB208F0E5500B7448D /* Message+CoreDataClass.swift */,
+				A1C8745D20908A46000D10C8 /* ChatLogController.swift */,
+				A164807A2092E7DF0037BA43 /* CustomTabbarController.swift */,
 			);
 			path = fbMessenger;
 			sourceTree = "<group>";
@@ -127,7 +145,6 @@
 			files = (
 				A119DFAD208DA7EC0056D2D7 /* LaunchScreen.storyboard in Resources */,
 				A119DFAA208DA7EC0056D2D7 /* Assets.xcassets in Resources */,
-				A119DFA5208DA7EB0056D2D7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +155,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A119DFA2208DA7EB0056D2D7 /* ViewController.swift in Sources */,
+				A164807B2092E7DF0037BA43 /* CustomTabbarController.swift in Sources */,
+				A1C8745E20908A46000D10C8 /* ChatLogController.swift in Sources */,
+				A119DFA2208DA7EB0056D2D7 /* FriendsController.swift in Sources */,
+				A1AE21FD208F0E5500B7448D /* Friend+CoreDataClass.swift in Sources */,
 				A119DFA8208DA7EB0056D2D7 /* fbMessenger.xcdatamodeld in Sources */,
 				A119DFA0208DA7EB0056D2D7 /* AppDelegate.swift in Sources */,
+				A10E77B3208F00DE007387AB /* FriendControllerHelper.swift in Sources */,
+				A133A88120DBB9A3004E259B /* Friend+CoreDataProperties.swift in Sources */,
+				A1E5FEB620D11F07008D9679 /* Message+CoreDataProperties.swift in Sources */,
+				A1AE21FF208F0E5500B7448D /* Message+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		A119DFA3208DA7EB0056D2D7 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A119DFA4208DA7EB0056D2D7 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A119DFAB208DA7EC0056D2D7 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -285,6 +301,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VF2LSRC33P;
 				INFOPLIST_FILE = fbMessenger/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -302,6 +319,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VF2LSRC33P;
 				INFOPLIST_FILE = fbMessenger/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
